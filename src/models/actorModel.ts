@@ -10,7 +10,7 @@ export class Actor extends BaseEntity {
     first_name: string;
 
     @Column()
-    last_name: String;
+    last_name: string;
 
     @CreateDateColumn()
     last_update: Date;
